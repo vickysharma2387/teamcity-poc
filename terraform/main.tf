@@ -20,6 +20,7 @@ resource "aws_launch_template" "ecs_launch_template" {
     resource_type = "instance"
 	tags = {
 	  Name = "ecs-instance"
+    }
   }
 }
 
